@@ -10,6 +10,7 @@ h5,
 h6 {
   font-family: 'Catamaran';
   font-weight: 500 !important;
+  
 }
 
 
@@ -17,6 +18,7 @@ body {
     position: relative;
     max-width: 50rem;
     margin: 2rem auto;
+    
 }
 
   

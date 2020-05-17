@@ -1,0 +1,3 @@
+Este é um projeto produzido par o Fica em Casa Hack.
+
+É um protótipo do que queria ser produzido, no geral foi feito a página inicial que é acessada assim que entrar no site(index), nela consta uma chamada para o site e o caminho para se inscrever na plataforma, as páginas de registro são diferenciadas pelo o que esperamos de cada usuário(paciente e profissional), a página home é acessada depois que o usuário faz o login e ela tem como principio no meio mostrar informações relevantes como o diário semanal de emoções para os pacientes e o diário para os profissionais. O site em si não tem muitas funcionalidades por ser apenas o seu HTML e CSS.
