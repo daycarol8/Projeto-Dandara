@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="css/registrar.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
+    <title>Projeto</title>
+  </head>
+
+  <body class="bg">
+    <div class="container-fluid">
+        <div class="card border-0 shadow-lg my-5 padding">
+            <div class="cardy-body p-0">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="text-center">
+                            <h1 class="h4 text-gray-700 mb-4 ">Crie sua conta!</h1>
+                        </div>
+                        <form class="user">
+                            <div class="form-group row">
+                                <div class="col-sm-8 mb-3 mb-sm-0">
+                                    <label for="birthday">Nome:</label>
+                                    <input type="text" class="form-control form-control-user w3-input w3-border w3-round-xxlarge" required>
+                                </div>
+                                <div class="col-sm-4">
+                                    <label for="nickname">Nickname:</label>
+                                    <input type="text" class="form-control form-control-user w3-input w3-border w3-round-xxlarge"   required>
+                                </div>
+                            </div>
+                            <div class="form-group mb-3">
+                                <label for="email">Email:</label>
+                                <input type="email" class="form-control form-control-user w3-input w3-border w3-round-xxlarge mb-3"  required>
+                            </div>
+                            <div class="form-group row">
+                                <div class="col-sm-6 mb-3 mb-sm-0">
+                                    <label for="senha">Senha:</label>
+                                  <input type="password" class="form-control form-control-user w3-input w3-border w3-round-xxlarge"  required>
+                                </div>
+                                <div class="col-sm-6">
+                                    <label for="senha">Repita a senha:</label>
+                                  <input type="password" class="form-control form-control-user w3-input w3-border w3-round-xxlarge" required>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <div class="col-sm-6 mb-3">
+                                    <label for="birthday">Aniversário:</label>
+                                    <input type="date" class="form-control form-control-user w3-input w3-border w3-round-xxlarge" placeholder="Aniversário" required>
+                                </div>
+                                <div class="col-sm-6">
+                                    <label for="telefone">Telefone:</label>
+                                    <input type="tel" id="phone" class="w3-input w3-border w3-round-xxlarge "name="phone" required>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <div class="col-sm-4 mb-3">
+                                    <label for="orientação">Orientação Sexual:</label>
+                                    <select class="w3-select w3-input w3-border w3-round-xxlarge" name="option" required>
+                                        <option value="" disabled selected>Escolha</option>
+                                        <option value="1">Hétero</option>
+                                        <option value="2">Gay</option>
+                                        <option value="3">Lésbica</option>
+                                        <option value="4">Bissexual</option>
+                                        <option value="5">Pansexual</option>
+                                        <option value="6">Outro</option>
+                                      </select>
+                                </div>
+                                <div class="col-sm-4 mb-3">
+                                    <label for="escolaridade">Grau de escolaridade</label>
+                                    <select class="w3-select w3-input w3-border w3-round-xxlarge" name="option" required>
+                                        <option value="" disabled selected>Escolha</option>
+                                        <option value="1">Ensino Médio - Incompleto</option>
+                                        <option value="2">Ensino Médio - Completo</option>
+                                        <option value="3">Graduação - Incompleta</option>
+                                        <option value="4">Graduação - Completa</option>
+                                        <option value="5">Pós-Graduação - Incompleta</option>
+                                        <option value="6">Pós-Graduação - Completa</option>
+                                        <option value="7">Outro</option>
+                                      </select>
+                                </div>
+                                <div class="col-sm-4 mb-3">
+                                    <label for="birthday">Profissão</label>
+                                    <input type="text" class="form-control form-control-user w3-input w3-border w3-round-xxlarge"  required>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <div class="col-sm-6 mb-3">
+                                    <label for="formaçao">Formação:</label>
+                                    <input type="text"  class="mb-3 w3-input w3-border w3-round-xxlarge "name="phone" required>
+                                    <label for="file">Anexar comprovante da universidade:</label>
+                                    <input type="file" id="myfile" name="myfile"  required>
+                                </div>
+                                <div class="col-sm-6">
+                                    <label for="CRM">CRM:</label>
+                                    <input type="text"  class="mb-3 w3-input w3-border w3-round-xxlarge "name="phone" required>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <div class="col-sm-6">
+                                    <label for="site">Como você descobriu o site?</label>
+                                    <textarea rows="5" cols="33" class="w3-input w3-border w3-round-xxlarge">
+                                    </textarea>
+                                </div>
+                                
+                            </div>
+                            <input type="checkbox" value="Termos" required>
+                            <label for="vehicle1"> Concordo com os <a href="#">termos e condições.</a></label><br>
+                            <a class="btn btn-lg btn-primary btn-block register" href="login.html">Registrar</a>
+                        </form>
+                        <hr>
+                        <div class="text-center">
+                            <a class="small" href="login.html">Já tem uma conta? Login!</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    </div>
+  
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </body>
+</html>

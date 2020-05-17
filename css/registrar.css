@@ -1,5 +1,6 @@
 .bg{
-    background-color: #E88F93;
+    background: #e88f93;
+    background-repeat: no-repeat
 }
 h1,
 h2,
@@ -17,21 +18,13 @@ body {
     max-width: 50rem;
     margin: 2rem auto;
 }
-a{
-    display: block;
-    padding: 10px;
-    position: absolute;
-    z-index: -1;
-    top: 1rem;
-    left: 100%;
-    margin-left: -62px;
-    transition: all .2s;
-}
-a:hover {
-    margin-left: 0;
-}
+
   
 .padding{
     padding: 3rem;
     align-self: center;
+}
+
+.register{
+    background-color: #A2DDE0;
 }
