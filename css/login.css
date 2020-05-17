@@ -1,0 +1,30 @@
+.bg{
+    background: #a2dde0;
+    background-repeat: no-repeat
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Catamaran';
+  font-weight: 500 !important;
+}
+
+
+body {
+    position: relative;
+    max-width: 50rem;
+    margin: 2rem auto;
+}
+
+  
+.padding{
+    padding: 3rem;
+    align-self: center;
+}
+
+.login{
+    background-color: #e88f93;
+}
